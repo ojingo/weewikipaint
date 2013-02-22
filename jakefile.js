@@ -1,3 +1,7 @@
+task("default", [], function() {
+    console.log("default");
+});
+
 desc("Example Description!");
 
 task("example",["Dependency!"], function() {
