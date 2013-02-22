@@ -1,14 +1,7 @@
-task("default", [], function() {
-    console.log("default");
+task("default", ["lint"]);
+
+desc("Lint Everything Description!");
+
+task("lint",[], function() {
+    console.log("Linting code goes here!");
 });
-
-desc("Example Description!");
-
-task("example",["Dependency!"], function() {
-    console.log("An Example Task!");
-});
-
-task("Dependency!", function() {
-    console.log("I am a Dependency!");
-});
-
