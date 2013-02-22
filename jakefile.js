@@ -2,6 +2,7 @@
 (function() {
     "use strict";
 
+    desc("Build and test");
     task("default", ["lint"]);
 
     desc("Lint everything");
@@ -13,6 +14,19 @@
         files.exclude("node_modules");
         var options = nodeLintOptions();
         lint.validateFileList(files.toArray(), options, {});
+    });
+
+    desc("Integrate");
+    task("integrate", ["default"], function() {
+        console.log("Integration logic goes here.");
+        console.log("1. Make sure git is clean.");
+        console.log("2. Build on the integration box");
+        console.log("   a. Walk over to integration box");
+        console.log("   b. git pull");
+        console.log("   c. jake");
+        console.log("3. git checkout integration");
+        console.log("4. git merge master --no-ff --log");
+        console.log("5. git checkout master");
     });
 
     function nodeLintOptions() {
