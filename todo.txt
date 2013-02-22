@@ -17,8 +17,5 @@ User Stories:
 
 Engineering Tasks:
 
-- continuous integration
 - server-side testing
 - client-side testing
-
-- make build fail when lint fail
