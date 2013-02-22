@@ -5,3 +5,6 @@
  * Time: 11:05 PM
  * Author:  TJ Marbois
  */
+
+console.log("I am a simple server.  For reals.");
+
