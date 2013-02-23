@@ -5,3 +5,10 @@
  * Time: 8:34 PM
  * Author:  TJ Marbois
  */
+"use strict";
+
+exports.testNothing = function(test) {
+    test.ok(true, "Hello");
+    test.done();
+
+};
