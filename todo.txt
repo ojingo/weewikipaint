@@ -19,3 +19,11 @@ Engineering Tasks:
 
 - server-side testing
 - client-side testing
+
+Todo on Current Task:
+- Choose framework ( node unit )
+- Abstract it
+- Swap it out for different framework
+- ADD LICENSE.TXT
+
+
